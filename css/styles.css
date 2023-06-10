@@ -1,5 +1,6 @@
 :root {
   scroll-behavior: smooth;
+
   /* Fonts */
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -19,6 +20,7 @@
   --gray-cl-60: rgba(157, 164, 189, 0.6);
 
   /* Others */
+
   --indent-horizontal: 64px;
   --indent-vertical: 30px;
   --items: 1;
@@ -54,6 +56,7 @@ h6,
 p {
   margin: 0;
 }
+
 /* Респонсивні контентні зображення */
 img {
   display: block;
@@ -110,13 +113,13 @@ button {
   margin: 0 auto;
 
 }
-/* Tablet screen >= 768  */
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
-/* Desktop screen >= 1200 */
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -170,7 +173,7 @@ button {
 
   color: var(--light-txt-cl);
 }
-/* Normal state */
+
 .btn {
   min-width: 160px;
   min-height: 40px;
@@ -191,7 +194,7 @@ button {
 
   transition: color var(--anim-fast), background-color var(--anim-fast);
 }
-/* Active state */
+
 .btn:hover,
 .btn:focus {
   color: var(--light-txt-cl);
@@ -985,6 +988,7 @@ button {
   transform: scale(100%);
   background-color: red;
 }
+
 .booking-form-field:has(
     .booking-form-input[type='text']:not(:placeholder-shown):required:valid
   )::after {
