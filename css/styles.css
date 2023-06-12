@@ -413,7 +413,6 @@ button {
 */
 .hero {
   height: 580px;
-  background-color: #191c26;
 }
 @media only screen and (min-width: 768px) {
   .hero {
